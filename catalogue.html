@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue Velocity - Exclusivités</title>
+    <style>
+        body { background: #0a192f; color: #f0f0f0; font-family: sans-serif; padding: 20px; text-align: center; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; padding: 20px; }
+        .card { border: 1px solid #39ff14; padding: 15px; border-radius: 10px; background: rgba(255,255,255,0.03); }
+        .card img { width: 100%; border-radius: 5px; }
+        select { background: #0a192f; color: white; border: 1px solid #39ff14; padding: 10px; width: 100%; margin: 10px 0; }
+        .btn-buy { background: #39ff14; color: black; border: none; padding: 15px; width: 100%; font-weight: bold; cursor: pointer; text-decoration: none; display: block; }
+    </style>
+</head>
+<body>
+    <h1>Modèles Disponibles</h1>
+    <div class="grid">
+        <div class="card">
+            <img src="Paire3.png" alt="Aero-Green 1.0">
+            <h2>Aero-Green 1.0</h2>
+            <select aria-label="Choisir pointure">
+                <option>42</option><option>43</option><option>44</option>
+            </select>
+            <a href="confirmation.html" class="btn-buy">RÉSERVER MAINTENANT</a>
+        </div>
+        <!-- Ajoutez d'autres cartes ici avec images/paire2.webp etc. -->
+    </div>
+</body>
+</html>
